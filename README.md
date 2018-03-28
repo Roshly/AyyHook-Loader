@@ -47,25 +47,7 @@ Use promo code "ROSHLY" for 10% off your first month!
 
 ### Anti-Leak Instructions
 
-1. Create a directory on your webserver to put your DLL files into.
-
-2. Change lines 79 and 86 to correspond to the new path.
-
-3. Create a .htaccess file inside the directory.
-
-4. Make the .htaccess with the following code.
-
-```
-    SetEnvIfNoCase User-Agent "CustomUseragentString" good_bot
-    <FilesMatch ".dll">
-    	Order Deny,Allow
-    	Deny from All
-    	Allow from env=good_bot
-    </FilesMatch>
-```
-
-
-This will give a `403 Forbidden` error to any bot/crawler/human who tries to access the DLL that is not running `CustomUseragentString`. The User-Agent can be spoofed giving anyone the ability to brute force. But if you create a longer string using some password generator, it will be harder.
+Removed becuase too many idiots dont know what their doing and this is for pasters so whats the point of preventing your indigo paste from being stolen when the source is everywhere!
 
 ## Loader Form Files
 
@@ -137,5 +119,3 @@ A: https://community.mybb.com/thread-123597.html ALSO if you wanna be a real mem
 [weakspider](https://www.unknowncheats.me/forum/members/172964.html) for the [Injection method](https://www.unknowncheats.me/forum/c-/213037-x86-manual-map-injection.html)
 
 [Thaisen](https://github.com/ThaisenPM): Helped fix injection method, Made the web handler & let me straight up c + p his readme file :D. Also the dev of nova hook!
-
-Storm: More secure with .htaccess.

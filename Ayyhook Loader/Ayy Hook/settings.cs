@@ -8,6 +8,10 @@
         public static string UserAgentString = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.33 Safari/537.36";
 
 
+        public static string version = "1000";
+        public static string Update = "https://ayyware.com/loader.exe";
+        public static string Check = "https://ayyware.com/version.txt";
+
         //The link to check.php so you can authenticate
         public static string Auth = "https://ayyware.com/check.php";
 

@@ -67,17 +67,27 @@ This repo is listed with a [MIT license](https://github.com/Roshly/AyyHook-Loade
 
 ## FAQ
 
+**Q: I can't open the loader.**
+
+A: Make sure all metro dll files are in the same location as the exe! or install Costura Fody (can be found by scrolling up)
+___
+**Q: CSGO crashes after injection or wont inject?**
+
+A: Make sure dll's are not protected by vmprotect! VMPROTECT IS USELESS! Vmprotect does change the signature when putting it in sigbench but it is just getting sig of dll but when you inject vmprotect doesnt protect anything but instead gets removed so your original dll sig (before you vmprotected it) is what is being scanned! (Note: This is only confirmed for old version of vmprotect v2.x.x)
+___
+**Q: Getting a error such as this? https://i.imgur.com/YOVCxdr.png**
+
+A: This is most commonly due to error connecting to server and has NOTHING to do with your incorrect login. This issue is most commonly found when using blazing fast or some kind of anti ddos solution (Tested that it does work with cloudflare). A simple solution is to either to connect to the main server ip or buy hosting from Ember Servers!
+___
 **Q: Login incorrect!**
 
 A: Read Sql login is incorrect below to fix.
 ___
-
 **Q: Sql login is incorrect?**
 
 A: This is one of those common issues mainly for people using cpanel which auto generates your password.
 In order to fix it, simply make sure that your password does NOT contrain any symbols!
 ___
-
 **Q: Is this a cheat for Counter Strike?**
 
 A: No, this is a tool for being able to sell cheats without giving your .dll file to your users

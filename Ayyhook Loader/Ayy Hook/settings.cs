@@ -8,9 +8,14 @@
         public static string UserAgentString = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.33 Safari/537.36";
 
 
-        public static string version = "1000";
-        public static string Update = "https://ayyware.com/loader.exe";
+        //Version of current loader, increment this number here and in the version.txt file each time you wish to push out a update
+        public static string version = "1";
+
+        //The link to where you store your version.txt on your site
         public static string Check = "https://ayyware.com/version.txt";
+
+        //Updated loader to download
+        public static string Update = "https://ayyware.com/loader.exe";
 
         //The link to check.php so you can authenticate
         public static string Auth = "https://ayyware.com/check.php";

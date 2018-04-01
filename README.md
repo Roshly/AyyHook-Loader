@@ -1,7 +1,7 @@
 # Ayyhook | Open Source C# Cheat Loader
 
 If you need support ask people on [Discord](https://ayyware.com/ayyhook)!
-My discord: Roshly#1337
+My NEW discord: Roshly#2486
 
 By downloading and using the source you agree to the [License](#license) that comes with the loader.
 
